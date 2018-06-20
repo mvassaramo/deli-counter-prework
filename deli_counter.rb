@@ -6,7 +6,7 @@ def line(katz_deli)
     
     katz_deli.each_with_index { | name, index| 
     
-    to_print << "#{index +1}. #{name}"
+    to_print << " #{index +1}. #{name}"
     }
     puts to_print
     end 
