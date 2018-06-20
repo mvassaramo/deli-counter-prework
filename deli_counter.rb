@@ -15,5 +15,5 @@ def line(katz_deli)
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   line_length = katz_deli.size
-  puts "Welcome, #{name}. You are number line_length in line."
+  puts "Welcome, #{name}. You are number #{line_length} in line."
 end
