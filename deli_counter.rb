@@ -9,7 +9,6 @@ def line(katz_deli)
     to_print << "#{index +1}. #{name}"
     end 
   end
-end
 
 def take_a_number
 end
