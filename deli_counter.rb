@@ -4,9 +4,10 @@ def line(katz_deli)
   elsif 
     to_print = "The line is currently: "
     
-    katz_deli.each_with_index { | name, index| }
+    katz_deli.each_with_index { | name, index| 
     
     to_print << "#{index +1}. #{name}"
+    }
     end 
   end
 
